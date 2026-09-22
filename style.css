@@ -5,7 +5,6 @@
 body {
     margin: 0;
     background: #ffe3f0;
-    overflow: hidden;
 }
 
 #myVideo {
@@ -56,4 +55,10 @@ body {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.slide1 {
+    background-color: #f8d7e3;
+    padding: 20px;
+    height: 5000px;
 }
