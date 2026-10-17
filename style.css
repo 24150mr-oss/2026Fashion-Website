@@ -109,3 +109,10 @@ html{
     scroll-margin-top: 20px;
     padding: 50px 30px;
 }
+
+p {
+    max-width: 800px;
+    margin: 5px 0 5px 20px;
+    line-height: 1.7;
+    padding: 0;
+}
