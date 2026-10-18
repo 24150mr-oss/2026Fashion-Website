@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "fashionFont";
+    src: url("fonts/fashionFont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -88,8 +96,8 @@ body {
 .navbar a {
     color: #f9d7e2;
     text-decoration: none;
-    font-family: georgia, serif;
-    font-size: 14px;
+    font-family: "fashionFont";
+    font-size: 18px;
 
     padding: 8px 12px;
     border-radius: 8px;
@@ -115,4 +123,8 @@ p {
     margin: 5px 0 5px 20px;
     line-height: 1.7;
     padding: 0;
+}
+
+h2 {
+ font-family: "fashionFont", serif;
 }
