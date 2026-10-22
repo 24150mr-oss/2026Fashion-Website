@@ -1,3 +1,4 @@
+/* Loads the custom font used throughout the website. */
 @font-face {
     font-family: "fashionFont";
     src: url("fonts/fashionFont.ttf") format("truetype");
@@ -10,11 +11,13 @@
     box-sizing: border-box;
 }
 
+/* Sets the page background colour and removes margins
 body {
     margin: 0;
     background: #ffe3f0;
 }
 
+/* Positions the video across the screen. */
 #myVideo {
     position: fixed;
     width: 100%;
@@ -29,7 +32,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* Button */
+/* Styles the button on the video landing page. */
 #myBtn {
     width: 100px;
     font-size: 16px;
@@ -39,11 +42,11 @@ body {
     color: #fff;
     cursor: pointer;
 
-    
+    /* Hides the button until the animation finishes */
       visibility: hidden;
     animation: showButton 0s linear 3.75s forwards;
 }
-
+/* Changes the button colour when the user hovers over it. */
 #myBtn:hover {
     background: #ddd;
     color: black;
@@ -54,23 +57,24 @@ body {
         visibility: visible;
     }
 }
-
+/* Sets the background colour for the home apge */
 .homePage {
     background-color: #f8d7e3;
 }
-
+/* Makes the banner fill the page width. */
 .banner {
     width: 100%;
     height: auto;
     display: block;
 }
 
+/* Styles the main section of the website. */
 .slide1 {
     background-color: #f8d7e3;
     padding: 20px;
     height: 5000px;
 }
-
+/* Adds a pink line underneath the banner. */
 .banner-line {
     width: 100%;
     height: 5px;
@@ -82,10 +86,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+/* sets the colours and apperance of the nav bar. */
     background-color: #801E49;
     border-radius: 10px;
-
+/* Controls the width and spacing of the nav bar. */
     width: 500px;
     max-width: 900px;
     margin: 10px auto 20px;
@@ -93,6 +97,7 @@ body {
 
     box-sizing: border-box;
 }
+/* Styles the links in the nav bar. */
 .navbar a {
     color: #f9d7e2;
     text-decoration: none;
@@ -104,20 +109,24 @@ body {
     transition: all 0.2s ease;
 }
 
+/* Changes the link color when the user hovers of each deacde on the nav bar. */
 .navbar a:hover {
    background-color: #f9d7e2;
    color: #801E49;
 }
 
+/* Has a smooth scrolling effect when navigating between sections. */
 html{
     scroll-behavior: smooth;
 }
 
+/* Adds spacing around each of the decad sections. */
 .decade-section{
     scroll-margin-top: 20px;
     padding: 50px 30px;
 }
 
+/* Sets the width, spacing and line height of the paragraphs. */
 p {
     max-width: 800px;
     margin: 5px 0 5px 20px;
@@ -125,30 +134,33 @@ p {
     padding: 0;
 }
 
+/* Applys the custom font to the H2 heading. */
 h2 {
  font-family: "fashionFont", serif;
 }
 
+/* sets the background and text colours for the 1960s section. */
 .decade1960s {
     background-color: #cd8ea8;
     color: #270715;
 }
-
+/* Sets the background and text colours for the 1980s section. */
 .decade1980s {
     background-color: #e198b5;
     color: #400c25;
 }
-
+/* Sets the background and text colours for the 2000s section */
 .decade2000s {
     background-color: #e7b4c5;
     color: #611437;
 }
 
+/* Sets the background and text colours for the 2020s section. */
 .decade2020s {
     background-color: #F0BCCE;
     color: #69163C;
 }
-
+/* Adds a pink border between all decade sectiobs. */
 .decade1960s,
 .decade1980s,
 .decade2000s,
@@ -156,6 +168,7 @@ h2 {
     border-bottom: 5px solid #801d49;
 }
 
+/* Adds a top border above the 1960s section to create a seperation. */
 .decade1960s {
     border-top: 5px solid #801E49;
 }
