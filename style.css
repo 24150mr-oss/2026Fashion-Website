@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-/* Sets the page background colour and removes margins
+/* Sets the page background colour and removes margins */
 body {
     margin: 0;
     background: #ffe3f0;
@@ -135,7 +135,7 @@ p {
 }
 
 /* Applys the custom font to the H2 heading. */
-h2 {
+h1 {
  font-family: "fashionFont", serif;
 }
 
