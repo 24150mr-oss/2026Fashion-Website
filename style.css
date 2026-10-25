@@ -141,23 +141,23 @@ h1 {
 
 /* sets the background and text colours for the 1960s section. */
 .decade1960s {
-    background-color: #cd8ea8;
+    background-color: #faf1cb;
     color: #270715;
 }
 /* Sets the background and text colours for the 1980s section. */
 .decade1980s {
-    background-color: #e198b5;
+    background-color: #ffc4dc;
     color: #400c25;
 }
 /* Sets the background and text colours for the 2000s section */
 .decade2000s {
-    background-color: #e7b4c5;
+    background-color: #bfd6e4;
     color: #611437;
 }
 
 /* Sets the background and text colours for the 2020s section. */
 .decade2020s {
-    background-color: #F0BCCE;
+    background-color: #d3dbc1;
     color: #69163C;
 }
 /* Adds a pink border between all decade sectiobs. */
