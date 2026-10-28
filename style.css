@@ -177,14 +177,33 @@ h1 {
     border-top: 5px solid #801E49;
 }
 
-.decade1980s,
-.decade2020s {
-    text-align: right;
+.decade-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
 }
 
-.decade1980s p,
-.decade2020s p {
+.decade-content p {
+    flex: 1;
+    min-width: 0;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: 0;
+    margin: 0;
+    text-align: left;
 }
+
+.decade-image {
+    display: block;
+    width: 300px;
+    max-width: 40%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.decade1980s .decade-content,
+.decade2020s .decade-content {
+    flex-direction: row-reverse;
+}
+
+
