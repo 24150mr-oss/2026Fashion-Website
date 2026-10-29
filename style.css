@@ -38,18 +38,18 @@ body {
     font-size: 16px;
     padding: 8px;
     border: none;
-    background: #000;
+    background: #801E49;
     color: #fff;
     cursor: pointer;
 
     /* Hides the button until the animation finishes */
       visibility: hidden;
-    animation: showButton 0s linear 3.75s forwards;
+    animation: showButton 0s linear 3.85s forwards;
 }
 /* Changes the button colour when the user hovers over it. */
 #myBtn:hover {
-    background: #ddd;
-    color: black;
+    background: #f8d7e3;
+    color: #801d49;
 }
 
 @keyframes showButton {
