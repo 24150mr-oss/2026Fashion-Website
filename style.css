@@ -72,7 +72,7 @@ body {
 .slide1 {
     background-color: #f8d7e3;
     padding: 20px;
-    height: 2000px;
+    height: 2200px;
 }
 /* Adds a pink line underneath the banner. */
 .banner-line {
@@ -177,14 +177,20 @@ h1 {
     border-top: 5px solid #801E49;
 }
 
+/* Arranges each decades paragraph and image to be side by side */
 .decade-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
     width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    /* Adds a show around the content box */
+    box-shadow: 4px 4px 10px rgba(128, 30, 73, 0.25)
 }
 
+/* Controls the paragraph size and alignment inside each box */
 .decade-content p {
     flex: 1;
     min-width: 0;
@@ -193,6 +199,7 @@ h1 {
     text-align: left;
 }
 
+/* Sets the size of the decade images */
 .decade-image {
     display: block;
     width: 300px;
@@ -201,11 +208,13 @@ h1 {
     flex-shrink: 0;
 }
 
+/* Places images on the left for the 1980s and 2020s section */
 .decade1980s .decade-content,
 .decade2020s .decade-content {
     flex-direction: row-reverse;
 }
 
+/* Styles the references footer */
 .footer {
     background-color: #801E49;
     color: white;
@@ -213,6 +222,7 @@ h1 {
     padding: 25px 40px;
 }
 
+/* Styles the main footer heading */
 .footer h2 {
     font-family: "fashionFont", serif;
     text-align: left;
@@ -223,18 +233,28 @@ h1 {
     margin-bottom: 8px;
 }
 
+/* Styles the source links */
 .footer a {
     color:yellow;
     margin-right: 5px;
     transition: color 0.2s ease;
 }
 
+/* Changes the link colour when the user hovers */
 .footer a:hover {
     color: white;
 }
 
+/* Styles the copyright text */
 .footer .copyright {
     font-size: 12px;
     margin-top: 25px;
     text-align: left;
+}
+/* Adds a brighter shadow border around each decade section */
+.decade1960s,
+.decade1980s,
+.decade2000s,
+.decade2020s {
+    box-shadow: 0px 0px 12px rgba(128, 30, 73, 0.8);
 }
